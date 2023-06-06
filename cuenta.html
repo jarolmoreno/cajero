@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cuentas.css">
+    <link rel="shortcut icon" href="DJP.png">
+    <title>Cajeros </title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>mis cuentas <p>(actualmente tiene 2 cuentas inscritas)</p></h1>
+        <div class="cuenta">
+<label for="">Cuenta 1 <p>  saldo     =  $</p> </label>
+<input type="text" name="cantidad1" id="c1" value="500">
+<label for=""> Cuenta 2 <P> SALDO=  $</P></label>
+<input type="text" name="cantidad2" id="c2" value="300">
+</div>
+
+<form action="">
+    <div class="canti">
+    <h2>Transferir, Depositar y Retirar</h2>
+<input type="text" name="" id="cant" placeholder="Que Cantidad?">
+</div>
+<div class="tdr">
+<input class="boton" type="button" value="Transferir de cuenta 1 a 2" id="bt2" onclick="formula1()">
+<input class="boton" type="button" value="Depositar a Cuenta 1" id="bt4" onclick="formula3()">
+<input class="boton" type="button" value="Retirar de Cuenta 1" id="bt6" onclick="formula5()">
+<input class="boton" type="button" value="Transferir de cuenta 2 a 1" id="bt3" onclick="formula2()">
+<input class="boton" type="button" value="Depositar a Cuenta 2" id="bt5" onclick="formula4()">
+<input class="boton" type="button" value="Retirar de Cuenta 2" id="bt7" onclick="formula6()">
+</div>
+</form>
+    <script src="cuentas.js"></script>  
+</div>  
+
+
+</body>
+</html>
